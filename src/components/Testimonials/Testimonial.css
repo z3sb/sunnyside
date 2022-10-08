@@ -1,0 +1,43 @@
+.testimonial{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.testimonial .title{
+  text-align: center;
+  text-transform: uppercase;
+  color: hsl(232, 10%, 55%);
+  font-family: 'Fraunces', serif;
+  word-spacing: 10px;
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+.testimonial .content{
+  display: flex;
+  gap: 55px;
+}
+.testimonial .item{
+  text-align: center;
+}
+.testimonial .item img{
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+.testimonial .item .text{
+  color: hsl(213, 9%, 39%);
+  font-weight: 600;
+  word-spacing: 1px;
+  margin-bottom: 70px;
+}
+.testimonial .item .job{
+  color: hsl(232, 10%, 55%);
+}
+.testimonial .item .info h3{
+  font-family: 'Fraunces', serif;
+  font-size: 20px;
+}
+@media (max-width:767px) {
+  .testimonial .content{
+    flex-direction: column;
+  }
+}
