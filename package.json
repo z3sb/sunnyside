@@ -1,5 +1,5 @@
 {
-  "homepage": "https://z3sb/github.io/sunnyside",
+  "homepage": "https://z3sb.github.io/sunnyside/",
   "name": "clone-react-app",
   "version": "0.1.0",
   "private": true,
@@ -39,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
